@@ -10,7 +10,7 @@
     <dependencies>
         <dependency>
             <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-server-testdriver</artifactId>
+            <artifactId>infinispan-server-testdriver-junit4</artifactId>
             <version>${infinispan.version}</version>
         </dependency>
     </dependencies>

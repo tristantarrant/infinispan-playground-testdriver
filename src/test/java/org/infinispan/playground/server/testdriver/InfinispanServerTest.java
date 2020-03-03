@@ -2,7 +2,6 @@ package org.infinispan.playground.server.testdriver;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
 
 import javax.transaction.HeuristicMixedException;
 import javax.transaction.HeuristicRollbackException;
@@ -17,11 +16,11 @@ import org.infinispan.client.hotrod.configuration.TransactionMode;
 import org.infinispan.client.hotrod.transaction.lookup.RemoteTransactionManagerLookup;
 import org.infinispan.commons.configuration.XMLStringConfiguration;
 import org.infinispan.configuration.cache.CacheMode;
-import org.infinispan.server.test.InfinispanServerRule;
-import org.infinispan.server.test.InfinispanServerRuleBuilder;
-import org.infinispan.server.test.InfinispanServerTestMethodRule;
-import org.infinispan.server.test.ServerRunMode;
-import org.infinispan.server.test.TestSystemPropertyNames;
+import org.infinispan.server.test.core.ServerRunMode;
+import org.infinispan.server.test.core.TestSystemPropertyNames;
+import org.infinispan.server.test.junit4.InfinispanServerRule;
+import org.infinispan.server.test.junit4.InfinispanServerRuleBuilder;
+import org.infinispan.server.test.junit4.InfinispanServerTestMethodRule;
 import org.junit.ClassRule;
 import org.junit.Rule;
 import org.junit.Test;
