@@ -5,7 +5,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <infinispan.version>11.0.0-SNAPSHOT</infinispan.version>
+        <infinispan.version>11.0.0.Final</infinispan.version>
     </properties>
     <dependencies>
         <dependency>
