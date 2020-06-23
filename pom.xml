@@ -5,7 +5,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <infinispan.version>11.0.0-SNAPSHOT</infinispan.version>
+        <infinispan.version>11.0.0.Final</infinispan.version>
     </properties>
     <dependencies>
         <dependency>
@@ -19,10 +19,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
-                <configuration>
-                    <release>11</release>
-                </configuration>
+                <version>3.8.1</version>
             </plugin>
         </plugins>
     </build>

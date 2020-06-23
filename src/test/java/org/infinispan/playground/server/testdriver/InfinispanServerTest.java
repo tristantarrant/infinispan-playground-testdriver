@@ -34,7 +34,7 @@ public class InfinispanServerTest {
          InfinispanServerRuleBuilder.config("infinispan-cluster.xml")
                .numServers(2)
                .runMode(ServerRunMode.CONTAINER)
-               .property(TestSystemPropertyNames.INFINISPAN_TEST_SERVER_BASE_IMAGE_NAME, "infinispan/server:11.0.0.Alpha1-3")
+               .property(TestSystemPropertyNames.INFINISPAN_TEST_SERVER_BASE_IMAGE_NAME, "infinispan/server:11.0.0.Final-2")
                .build();
 
    @Rule
